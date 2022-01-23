@@ -68,3 +68,5 @@ class criminal(models.Model):
     evidence = models.CharField(max_length=2000)
     psid=models.ForeignKey(police_station,on_delete=models.CASCADE)
     crimeid = models.ForeignKey(crime_register,on_delete= models.CASCADE)
+
+#hello
